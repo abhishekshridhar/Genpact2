@@ -60,7 +60,7 @@ public class StudentApplication {
 		s.display();
 		s.calculategrade(newmarks);
 		Student s2 = new Student();
-	s2.init(22,"Abhishek",67.8f);
+	s2.init(22,"Arun Kumar AKRNU",67.8f);
 	s2.display();
 	newmarks=s2.getmarks();
 	s2.calculategrade(newmarks);
