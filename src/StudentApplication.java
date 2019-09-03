@@ -13,7 +13,13 @@ public class StudentApplication {
 		StudentApplication sa = new StudentApplication();
 		sa.showmenu();
 		
+		/* Alternatively, we can decalre showmenu as static and in main just call showmenu() without making
+		 * an object
+		 */
 		
+		/* we cant create a class object in case statement, so we create
+		 * a null object like this
+		 */
 		
 		Student st = null;
 		
@@ -44,7 +50,6 @@ public class StudentApplication {
 		s.init(21,"Krishna",99.8f);
 		s.display();
 		
-		System.out.println("This line for git");
 		
 		float newmarks = s.getmarks();
 		//System.out.println("the new marks "+newmarks);
@@ -61,8 +66,6 @@ public class StudentApplication {
 	s2.display();
 	newmarks=s2.getmarks();
 	s2.calculategrade(newmarks);
-	
-	System.out.println("this is the second line to  be commited");
 	}
 	
 	
