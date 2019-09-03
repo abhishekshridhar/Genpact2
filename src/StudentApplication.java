@@ -50,6 +50,7 @@ public class StudentApplication {
 		s.init(21,"Krishna",99.8f);
 		s.display();
 		
+		System.out.println("This line for git");
 		
 		float newmarks = s.getmarks();
 		//System.out.println("the new marks "+newmarks);
